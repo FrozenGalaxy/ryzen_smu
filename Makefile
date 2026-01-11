@@ -15,6 +15,7 @@ else
 endif
 endif
 
+ccflags-y += -I$(src)/include
 obj-m				:= $(MOD).o
 $(MOD)-objs		 	:= drv.o smu.o
 
